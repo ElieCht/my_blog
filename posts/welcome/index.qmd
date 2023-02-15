@@ -1,0 +1,12 @@
+---
+title: "Bienvenu sur mon Blog !"
+author: "Elie Chataigner"
+date: "2023-02-19"
+categories: [news]
+---
+
+Voici mon premier post !
+
+![Je réalise ce travail dans le cadre de R avancé à l'université de Nantes](images/logo.jpg){fig-align="center"}
+
+

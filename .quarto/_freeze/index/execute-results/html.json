@@ -1,0 +1,14 @@
+{
+  "hash": "b96c91f15b846e1151333c0d93e86b73",
+  "result": {
+    "markdown": "---\ntitle: \"Mon Blog\"\nlisting:\n  contents: posts\n  sort: \"date desc\"\n  type: default\n  categories: true\n  sort-ui: false\n  filter-ui: false\npage-layout: full\ntitle-block-banner: true\n---\n\n\n#Exercice 1\n\n##Question 1\n\n\n::: {.cell}\n\n```{.r .cell-code}\n#Créer deux documents : index.qmd et _quarto.yml  \n```\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

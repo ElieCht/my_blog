@@ -1,7 +1,7 @@
 {
-  "hash": "b96c91f15b846e1151333c0d93e86b73",
+  "hash": "3bd9c22df53131d32c87b1af69b7de2a",
   "result": {
-    "markdown": "---\ntitle: \"Mon Blog\"\nlisting:\n  contents: posts\n  sort: \"date desc\"\n  type: default\n  categories: true\n  sort-ui: false\n  filter-ui: false\npage-layout: full\ntitle-block-banner: true\n---\n\n\n#Exercice 1\n\n##Question 1\n\n\n::: {.cell}\n\n```{.r .cell-code}\n#Créer deux documents : index.qmd et _quarto.yml  \n```\n:::\n",
+    "markdown": "---\ntitle: \"my_blog\"\nlisting:\n  contents: posts\n  sort: \"date desc\"\n  type: default\n  categories: true\n  sort-ui: false\n  filter-ui: false\npage-layout: full\ntitle-block-banner: true\n---\n\n\n#Exercice 1\n\n##Question 1\n\n\n::: {.cell}\n\n```{.r .cell-code}\n#Créer deux documents : index.qmd et _quarto.yml  \n```\n:::\n\n\n##Question 4\n\n\n::: {.cell}\n\n```{.r .cell-code}\n#Dans le terminal : \n#git config --global user.name \"ElieCht\"\n#git config --global user.email \"eliechataigner@gmail.com\"\n```\n:::\n\n\n##Question 5\n\n\n::: {.cell}\n\n```{.r .cell-code}\n#Dans le terminal : \n#git remote add origin git@github.com:ElieCht/my_blog.git\n#git remote -v pour voir si le remote a correctement été ajouté\n```\n:::\n",
     "supporting": [],
     "filters": [
       "rmarkdown/pagebreak.lua"

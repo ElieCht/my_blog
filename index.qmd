@@ -1,6 +1,5 @@
 ---
-git config --global user.name "<votre username>"---
-title: "Mon Blog"
+title: "my_blog"
 listing:
   contents: posts
   sort: "date desc"
@@ -25,5 +24,16 @@ title-block-banner: true
 
 ```{r}
 #| label: "q4"
-#Dans la console : 
+#Dans le terminal : 
+#git config --global user.name "ElieCht"
+#git config --global user.email "eliechataigner@gmail.com"
+```
+
+##Question 5
+
+```{r}
+#| label: "q5"
+#Dans le terminal : 
+#git remote add origin git@github.com:ElieCht/my_blog.git
+#git remote -v pour voir si le remote a correctement été ajouté
 ```

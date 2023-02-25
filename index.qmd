@@ -1,5 +1,5 @@
 ---
-title: "my_blog"
+title: "Mon blog !"
 listing:
   contents: posts
   sort: "date desc"
@@ -11,29 +11,12 @@ page-layout: full
 title-block-banner: true
 ---
 
-#Exercice 1
+# Bienvenue !
 
-##Question 1
+Je vous souhaite la **bienvenue** sur mon blog ! 😊
 
-```{r}
-#| label: "q1"
-#Créer deux documents : index.qmd et _quarto.yml  
-```
+Je réalise ce travail dans le cadre du cours de R avancé au sein du Master 1 - Econométrie Appliquée.
 
-##Question 4
+Nous devions réaliser un exercice et pour accéder aux réponses à celui-ci veuillez consulter les rubriques ci-dessous.
 
-```{r}
-#| label: "q4"
-#Dans le terminal : 
-#git config --global user.name "ElieCht"
-#git config --global user.email "eliechataigner@gmail.com"
-```
-
-##Question 5
-
-```{r}
-#| label: "q5"
-#Dans le terminal : 
-#git remote add origin git@github.com:ElieCht/my_blog.git
-#git remote -v pour voir si le remote a correctement été ajouté
-```
+------------------------------------------------------------------------

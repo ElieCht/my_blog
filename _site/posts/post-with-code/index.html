@@ -6,10 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Harlow Malloc">
-<meta name="dcterms.date" content="2023-02-13">
+<meta name="author" content="Chataigner Elie">
+<meta name="dcterms.date" content="2023-02-10">
 
-<title>Mon Blog - Post With Code</title>
+<title>my_blog - Librairie Heron et Triangle de Sierpinski</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -130,7 +130,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <a class="navbar-brand" href="../../index.html">
-    <span class="navbar-title">Mon Blog</span>
+    <span class="navbar-title">my_blog</span>
   </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
@@ -138,7 +138,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../about.html">About</a>
+    <a class="nav-link" href="../../about.html">Description</a>
   </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/"><i class="bi bi-github" role="img">
@@ -146,7 +146,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
  </a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com"><i class="bi bi-twitter" role="img">
+    <a class="nav-link" href="https://www.linkedin.com/in/elie-chataigner-8a1271230/"><i class="bi bi-linkedin" role="img">
 </i> 
  </a>
   </li>  
@@ -160,7 +160,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Post With Code</h1>
+      <h1 class="title">Librairie Heron et Triangle de Sierpinski</h1>
                                 <div class="quarto-categories">
                 <div class="quarto-category">news</div>
                 <div class="quarto-category">code</div>
@@ -175,14 +175,14 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
       <div>
       <div class="quarto-title-meta-heading">Author</div>
       <div class="quarto-title-meta-contents">
-               <p>Harlow Malloc </p>
+               <p>Chataigner Elie </p>
             </div>
     </div>
       
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">February 13, 2023</p>
+        <p class="date">February 10, 2023</p>
       </div>
     </div>
       
@@ -199,15 +199,89 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 
 
 
-<p>This is a post with executable code.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="heron.jpg" class="img-fluid figure-img" style="width:50.0%"></p>
+<p></p><figcaption class="figure-caption">Formule de héron</figcaption><p></p>
+</figure>
+</div>
+<section id="librairie-heron" class="level2">
+<h2 class="anchored" data-anchor-id="librairie-heron">Librairie Heron</h2>
+<p>Ce package permet de calculer l’aire d’un triangle à partir de la longueur de ses 3 côtés grâce à la formule de héron</p>
+<p>Il contient 3 fonctions :</p>
+<ul>
+<li><p>Une fonction intermédiaire : demi-perimètre qui comme son nom l’indique, calcule le demi-perimètre du triangle</p></li>
+<li><p>Une fonction heron qui permet de calculer l’aire d’un triangle grâce à la forume sur l’image ci-dessus</p></li>
+<li><p>Une fonction heron_bis, qui permet de calculer l’aire du triangle en renvoyant des erreurs si certaines caractéristiques ne sont pas respectées</p></li>
+</ul>
+<p>Pour installer le package depuis Github, il suffit d’installer la librarie “remotes” et d’éxecuter la commande suivante :</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span> <span class="sc">+</span> <span class="dv">1</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 2</code></pre>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>remotes<span class="sc">::</span><span class="fu">install_github</span>(<span class="st">"ElieCht/heron"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
+<hr>
+</section>
+<section id="triangle-de-sierpinski" class="level2">
+<h2 class="anchored" data-anchor-id="triangle-de-sierpinski">Triangle de Sierpinski</h2>
+<p>Le triangle de Sierpink (ou tamis de Sierpinski) est une figure fractale formée d’un grand triangle équilatéral subdivisé en petits triangles équilaéraux plus petits.</p>
+<p>Chaque étape de la subdivision consiste à retirer le triangle central de chaque petit triangle équilatéral et à le remplacer par trois trianglais équilatéraux plus petits, créant ainsi une série infinie de triagnles imbriqués de plus en plus petits.</p>
+<p>Les étapes du triangle de Sierpinski sont les suivantes :</p>
+<ul>
+<li><p>1 : Commencer avec un triangle équilatéral</p></li>
+<li><p>2 : Diviser le trangle en quatre triangle équilatéraux en traçant des lignes reliant le mileu de chaque côté</p></li>
+<li><p>3 : Supprimer le trangle central de chaque petit triangle équilatéral crée à l’étape précedente</p></li>
+<li><p>4 : Répeter les étapes 2 et 3 pour chacun des triangles restants à chaque itérations</p></li>
+</ul>
+<p><strong>Première Itération</strong></p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co">#tar_read("plot1")</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="co">#paste("L'aire du triangle à la première étape est", tar_read("aire1"))</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="it_1.jpg" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">L’aire du triangle à le première étape est 0.1875</figcaption><p></p>
+</figure>
+</div>
+<p><strong>Seconde Itération</strong></p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co">#tar_read("plot2")</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="co">#paste("L'aire du triangle à la deuxième étape est", tar_read("aire2"))</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="it_2.jpg" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">L’aire du triangle à la deuxième étape est 0.140625</figcaption><p></p>
+</figure>
+</div>
+<p><strong>Troisième Itération</strong></p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co">#tar_read("plot3")</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="co">#paste("L'aire du triangle à la troisième étape est", tar_read("aire3"))</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="it_3.jpg" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">L’aire du triangle à la deuxième étape est 0.10546875</figcaption><p></p>
+</figure>
+</div>
+<p><strong>Quatrième Itération</strong></p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co">#tar_read("plot4")</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="co">#paste("L'aire du triangle à la quatrième étape est", tar_read("aire4"))</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="it_4.jpg" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">L’aire du triangle à la deuxième étape est 0.0791015625</figcaption><p></p>
+</figure>
+</div>
+<section id="conclusion" class="level3">
+<h3 class="anchored" data-anchor-id="conclusion">Conclusion</h3>
+<p>Nous constatons bien qu’au cours du procéssus itératif, les aires des triangles diminuent au cours des étapes.La raison est qu’à chaque itération, chaque triangle est réduit de moitié ce qui signifie que l’aire totale des triangles diminue. L’aire de chaque triangle est divisée par quatre, par conséquent, l’aire des triangles dans le triangle de Siperpinski tend vers 0 à mesure que le nombre d’itérations augmente.</p>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

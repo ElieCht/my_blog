@@ -1,0 +1,22 @@
+name|type|data|command|depend|seed|path|time|size|bytes|format|repository|iteration|parent|children|seconds|warnings|error
+aire1|stem|a42d8b813803dc4d|dde5e5a76a4f86c9|137fe5f246aef9f0|-1856137724||t19413.769233856s|b6d2e014b07bc296|51|rds|local|vector|||0.05||
+aire2|stem|35338462542ce2d5|3e69f1a2f1dcbb14|bda498b613ac536a|-950599058||t19413.7692350971s|b6d2e014b07bc296|51|rds|local|vector|||0||
+aire3|stem|6a4c31c7848d8729|5513f03755184d22|28f56dec5605c6ac|-578670908||t19413.7692363382s|c9aaea90a821e608|53|rds|local|vector|||0||
+aire4|stem|7ee2f53d158498f2|7a7407d1ffc9edd7|a0e89f54985e4672|584595823||t19413.7692377337s|c9aaea90a821e608|53|rds|local|vector|||0||
+calcul_aire|function|f54681bb9f1da9f5|||||||||||||||
+centre_segment|function|8297384923b032e9|||||||||||||||
+div1|stem|a1230ae807c977c4|1f39a5250c7f1b46|65625a865ac7849f|-1600574293||t19413.7692088355s|f0d5811415b6b792|97|rds|local|vector|||2.72|le package ggplot2 a été compilé avec la version R 4.2.2. le package devtools a été compilé avec la version R 4.2.2. le package usethis a été compilé avec la version R 4.2.2. le package quarto a été compilé avec la version R 4.2.2|
+divide_list_triangle|function|3e0f860c45dc99b9|||||||||||||||
+divide_triangle|function|8c9b717380037889|||||||||||||||
+first|stem|377de0da9e8419c2|b4658b59960fc533|f06cbf1595b370b7|1835401201||t19413.7692321071s|ae3ca543e47cf4fd|166|rds|local|vector|||0||
+heron_liste|function|7ad1afbcebf02492|||||||||||||||
+longueur|function|a1817bffaa54b5ac|||||||||||||||
+plot_triangles|function|283bdac4be1fffb9|||||||||||||||
+plot1|stem|b9a20a798e320a75|884d8ddbbc359757|a705b8c4b1e72db2|1351247401||t19413.7692331518s|022f9788c333b3fb|52066|rds|local|vector|||0.05||
+plot2|stem|ffdfeb124160f74d|a3c84f848ef70331|f99599ca5ce7ab97|-777164687||t19413.7692348432s|1337c16d7bc36d11|52381|rds|local|vector|||0||
+plot3|stem|af5b3af05eaf1bfe|b777b9cce0ae22e9|910132ff6ef1c17d|-1544581898||t19413.7692358996s|41d8349b5f93bab7|53234|rds|local|vector|||0.01||
+plot4|stem|f508921ba90d9e9a|1f4c3c0caea63e03|adcb1e407ec1a89f|-1257623765||t19413.7692374905s|9c0771e54d6f654d|55633|rds|local|vector|||0.06||
+Post_blog|stem|7810c5aa95b85fcb|a95b8e4bac890e61|dc5240284c0f6969|-2050398541||t19413.769231835s|5ae3a95bcad297bf|1888|rds|local|vector|||1.95||
+second|stem|4b2f158a4c8f013f|b48f3194b7401411|6f5b433f4435abc7|1949808275||t19413.76923411s|2bff303c02f1cf66|379|rds|local|vector|||0||
+third|stem|931b30dbddbc5e94|61875182d04d9f01|2af81663b631d5d2|-1343700348||t19413.7692361305s|426e9b0b0ce9573f|887|rds|local|vector|||0||
+triangle|object|2d29a5ffe1ff8105|||||||||||||||

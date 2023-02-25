@@ -2,29 +2,71 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "my_blog",
+    "title": "Mon blog !",
     "section": "",
-    "text": "##Question 1\n\n#Créer deux documents : index.qmd et _quarto.yml  \n\n##Question 4\n\n#Dans le terminal : \n#git config --global user.name \"ElieCht\"\n#git config --global user.email \"eliechataigner@gmail.com\"\n\n##Question 5\n\n#Dans le terminal : \n#git remote add origin git@github.com:ElieCht/my_blog.git\n#git remote -v pour voir si le remote a correctement été ajouté\n\n\n\n\n\n\n\n\n\n  \n\n\n\n\nBienvenu sur mon Blog !\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nFeb 19, 2023\n\n\nElie Chataigner\n\n\n\n\n\n\n  \n\n\n\n\nPost With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nFeb 13, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\nNo matching items"
+    "text": "Réponses !\n\n\n\n\n\n\n\nnews\n\n\nanswers\n\n\n\n\n\n\n\n\n\n\n\nFeb 19, 2023\n\n\nElie Chataigner\n\n\n\n\n\n\n  \n\n\n\n\nLibrairie Heron et Triangle de Sierpinski\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\nanswers\n\n\n\n\n\n\n\n\n\n\n\nFeb 10, 2023\n\n\nChataigner Elie\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "Description",
     "section": "",
-    "text": "About this blog"
+    "text": "Je réalise ce travail dans le cadre du cours de R avancé dont nous disposons en M1 - Econométrie Appliquée à l’université de Nantes. Le consigne était de réaliser un blog sous quarto et de réaliser un package intutlé “héron”."
   },
   {
     "objectID": "posts/post-with-code/index.html",
     "href": "posts/post-with-code/index.html",
-    "title": "Post With Code",
+    "title": "Librairie Heron et Triangle de Sierpinski",
     "section": "",
-    "text": "1 + 1\n\n[1] 2"
+    "text": "Formule de héron"
   },
   {
     "objectID": "posts/welcome/index.html",
     "href": "posts/welcome/index.html",
-    "title": "Bienvenu sur mon Blog !",
+    "title": "Réponses !",
     "section": "",
-    "text": "Je réalise ce travail dans le cadre de R avancé à l’université de Nantes"
+    "text": "Voici les réponses aux questions !"
+  },
+  {
+    "objectID": "posts/post-with-code/index.html#librairie-heron",
+    "href": "posts/post-with-code/index.html#librairie-heron",
+    "title": "Librairie Heron et Triangle de Sierpinski",
+    "section": "Librairie Heron",
+    "text": "Librairie Heron\nCe package permet de calculer l’aire d’un triangle à partir de la longueur de ses 3 côtés grâce à la formule de héron\nIl contient 3 fonctions :\n\nUne fonction intermédiaire : demi-perimètre qui comme son nom l’indique, calcule le demi-perimètre du triangle\nUne fonction heron qui permet de calculer l’aire d’un triangle grâce à la forume sur l’image ci-dessus\nUne fonction heron_bis, qui permet de calculer l’aire du triangle en renvoyant des erreurs si certaines caractéristiques ne sont pas respectées\n\nPour installer le package depuis Github, il suffit d’installer la librarie “remotes” et d’éxecuter la commande suivante :\n\nremotes::install_github(\"ElieCht/heron\")"
+  },
+  {
+    "objectID": "posts/post-with-code/index.html#triangle-de-sierpinski",
+    "href": "posts/post-with-code/index.html#triangle-de-sierpinski",
+    "title": "Librairie Heron et Triangle de Sierpinski",
+    "section": "Triangle de Sierpinski",
+    "text": "Triangle de Sierpinski\nLe triangle de Sierpink (ou tamis de Sierpinski) est une figure fractale formée d’un grand triangle équilatéral subdivisé en petits triangles équilaéraux plus petits.\nChaque étape de la subdivision consiste à retirer le triangle central de chaque petit triangle équilatéral et à le remplacer par trois trianglais équilatéraux plus petits, créant ainsi une série infinie de triagnles imbriqués de plus en plus petits.\nLes étapes du triangle de Sierpinski sont les suivantes :\n\n1 : Commencer avec un triangle équilatéral\n2 : Diviser le trangle en quatre triangle équilatéraux en traçant des lignes reliant le mileu de chaque côté\n3 : Supprimer le trangle central de chaque petit triangle équilatéral crée à l’étape précedente\n4 : Répeter les étapes 2 et 3 pour chacun des triangles restants à chaque itérations\n\nPremière Itération\n\n#tar_read(\"plot1\")\n#paste(\"L'aire du triangle à la première étape est\", tar_read(\"aire1\"))\n\n\n\n\nL’aire du triangle à le première étape est 0.1875\n\n\nSeconde Itération\n\n#tar_read(\"plot2\")\n#paste(\"L'aire du triangle à la deuxième étape est\", tar_read(\"aire2\"))\n\n\n\n\nL’aire du triangle à la deuxième étape est 0.140625\n\n\nTroisième Itération\n\n#tar_read(\"plot3\")\n#paste(\"L'aire du triangle à la troisième étape est\", tar_read(\"aire3\"))\n\n\n\n\nL’aire du triangle à la deuxième étape est 0.10546875\n\n\nQuatrième Itération\n\n#tar_read(\"plot4\")\n#paste(\"L'aire du triangle à la quatrième étape est\", tar_read(\"aire4\"))\n\n\n\n\nL’aire du triangle à la deuxième étape est 0.0791015625\n\n\n\nConclusion\nNous constatons bien qu’au cours du procéssus itératif, les aires des triangles diminuent au cours des étapes.La raison est qu’à chaque itération, chaque triangle est réduit de moitié ce qui signifie que l’aire totale des triangles diminue. L’aire de chaque triangle est divisée par quatre, par conséquent, l’aire des triangles dans le triangle de Siperpinski tend vers 0 à mesure que le nombre d’itérations augmente."
+  },
+  {
+    "objectID": "about.html#parcours",
+    "href": "about.html#parcours",
+    "title": "Description",
+    "section": "Parcours",
+    "text": "Parcours\nBaccalauréat ES : Mention Bien - Lycée Léonard de Vinci, Montaigu\nLicence 3 Analyse économique : Mention Bien - IAE Nantes"
+  },
+  {
+    "objectID": "about.html#ambition-dans-le-cadre-du-master",
+    "href": "about.html#ambition-dans-le-cadre-du-master",
+    "title": "Description",
+    "section": "Ambition dans le cadre du Master",
+    "text": "Ambition dans le cadre du Master\nJe souhaite devenir enseignant chercheur dans le domaine de l’économie."
+  },
+  {
+    "objectID": "posts/welcome/index.html#création-du-projet-de-site-sous-github",
+    "href": "posts/welcome/index.html#création-du-projet-de-site-sous-github",
+    "title": "Réponses !",
+    "section": "Création du projet de site sous github",
+    "text": "Création du projet de site sous github\nQuestion 1 : En initalisant un blog quarto, deux fichiers sont crées :\n\nindex.qmd\n_quarto.yml\n\nQuestion 4 : Dans le terminal il faut rentrer :\n\n#git config --global user.name \"ElieCht\"\n#git config --global user.email \"eliechataigner@gmail.com\"\n\nQuestion 5 : Dans le terminal il faut rentrer :\n\n#git remote add origin git@github.com:ElieCht/my_blog.git\n#git remote -v pour voir si le remote a correctement été ajouté\n\nQuestion 6 : Cela permet de sauvegarder les modifications apportées à un projet et de les rendres accessibles aux autres. Cela à crée une branche “master” sur GitHub"
+  },
+  {
+    "objectID": "posts/welcome/index.html#post-de-blog",
+    "href": "posts/welcome/index.html#post-de-blog",
+    "title": "Réponses !",
+    "section": "Post de Blog",
+    "text": "Post de Blog\nQuestion 5 : Dans la console il faut rentrer :\n\n#renv::snapshot()\n#renv::install(\"heron\")\n\nQuestions suivantes : Pour les questions suivantes veuillez-vous référer à rubrique intitulée :\n\nLibrarie Heron et Triangle de Sierpinski"
   }
 ]

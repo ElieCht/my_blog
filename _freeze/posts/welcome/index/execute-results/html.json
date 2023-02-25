@@ -1,0 +1,14 @@
+{
+  "hash": "19f08383a63e9d81fb94c6567c710e50",
+  "result": {
+    "markdown": "---\ntitle: \"Réponses !\"\nauthor: \"Elie Chataigner\"\ndate: \"2023-02-19\"\ncategories: [news, answers]\n---\n\n\nVoici les réponses aux questions !\n\n![Je réalise ce travail dans le cadre de R avancé à l'université de Nantes](images/logo.jpg){fig-align=\"center\"}\n\n------------------------------------------------------------------------\n\n## Création du projet de site sous github\n\n**Question 1** : En initalisant un blog quarto, deux fichiers sont crées :\n\n-   index.qmd\n\n-   \\_quarto.yml\n\n**Question 4** : Dans le terminal il faut rentrer :\n\n\n::: {.cell}\n\n```{.r .cell-code}\n#git config --global user.name \"ElieCht\"\n#git config --global user.email \"eliechataigner@gmail.com\"\n```\n:::\n\n\n**Question 5** : Dans le terminal il faut rentrer :\n\n\n::: {.cell}\n\n```{.r .cell-code}\n#git remote add origin git@github.com:ElieCht/my_blog.git\n#git remote -v pour voir si le remote a correctement été ajouté\n```\n:::\n\n\n**Question 6** : Cela permet de sauvegarder les modifications apportées à un projet et de les rendres accessibles aux autres. Cela à crée une branche \"master\" sur GitHub\n\n------------------------------------------------------------------------\n\n## Post de Blog\n\n**Question 5** : Dans la console il faut rentrer :\n\n\n::: {.cell}\n\n```{.r .cell-code}\n#renv::snapshot()\n#renv::install(\"heron\")\n```\n:::\n\n\n**Questions suivantes** : Pour les questions suivantes veuillez-vous référer à rubrique intitulée :\n\n> Librarie Heron et Triangle de Sierpinski\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

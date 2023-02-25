@@ -1,12 +1,5 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Mon blog !",
-    "section": "",
-    "text": "Réponses !\n\n\n\n\n\n\n\nnews\n\n\nanswers\n\n\n\n\n\n\n\n\n\n\n\nFeb 19, 2023\n\n\nElie Chataigner\n\n\n\n\n\n\n  \n\n\n\n\nLibrairie Heron et Triangle de Sierpinski\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\nanswers\n\n\n\n\n\n\n\n\n\n\n\nFeb 10, 2023\n\n\nChataigner Elie\n\n\n\n\n\n\nNo matching items"
-  },
-  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "Description",
@@ -14,18 +7,32 @@
     "text": "Je réalise ce travail dans le cadre du cours de R avancé dont nous disposons en M1 - Econométrie Appliquée à l’université de Nantes. Le consigne était de réaliser un blog sous quarto et de réaliser un package intutlé “héron”."
   },
   {
+    "objectID": "about.html#parcours",
+    "href": "about.html#parcours",
+    "title": "Description",
+    "section": "Parcours",
+    "text": "Parcours\nBaccalauréat ES : Mention Bien - Lycée Léonard de Vinci, Montaigu\nLicence 3 Analyse économique : Mention Bien - IAE Nantes"
+  },
+  {
+    "objectID": "about.html#ambition-dans-le-cadre-du-master",
+    "href": "about.html#ambition-dans-le-cadre-du-master",
+    "title": "Description",
+    "section": "Ambition dans le cadre du Master",
+    "text": "Ambition dans le cadre du Master\nJe souhaite devenir enseignant chercheur dans le domaine de l’économie."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Mon blog !",
+    "section": "",
+    "text": "Réponses !\n\n\n\n\n\n\n\nnews\n\n\nanswers\n\n\n\n\n\n\n\n\n\n\n\nFeb 19, 2023\n\n\nElie Chataigner\n\n\n\n\n\n\n  \n\n\n\n\nLibrairie Heron et Triangle de Sierpinski\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\nanswers\n\n\n\n\n\n\n\n\n\n\n\nFeb 10, 2023\n\n\nChataigner Elie\n\n\n\n\n\n\nNo matching items"
+  },
+  {
     "objectID": "posts/post-with-code/index.html",
     "href": "posts/post-with-code/index.html",
     "title": "Librairie Heron et Triangle de Sierpinski",
     "section": "",
     "text": "Formule de héron"
-  },
-  {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Réponses !",
-    "section": "",
-    "text": "Voici les réponses aux questions !"
   },
   {
     "objectID": "posts/post-with-code/index.html#librairie-heron",
@@ -42,18 +49,11 @@
     "text": "Triangle de Sierpinski\nLe triangle de Sierpink (ou tamis de Sierpinski) est une figure fractale formée d’un grand triangle équilatéral subdivisé en petits triangles équilaéraux plus petits.\nChaque étape de la subdivision consiste à retirer le triangle central de chaque petit triangle équilatéral et à le remplacer par trois trianglais équilatéraux plus petits, créant ainsi une série infinie de triagnles imbriqués de plus en plus petits.\nLes étapes du triangle de Sierpinski sont les suivantes :\n\n1 : Commencer avec un triangle équilatéral\n2 : Diviser le trangle en quatre triangle équilatéraux en traçant des lignes reliant le mileu de chaque côté\n3 : Supprimer le trangle central de chaque petit triangle équilatéral crée à l’étape précedente\n4 : Répeter les étapes 2 et 3 pour chacun des triangles restants à chaque itérations\n\nPremière Itération\n\n#tar_read(\"plot1\")\n#paste(\"L'aire du triangle à la première étape est\", tar_read(\"aire1\"))\n\n\n\n\nL’aire du triangle à le première étape est 0.1875\n\n\nSeconde Itération\n\n#tar_read(\"plot2\")\n#paste(\"L'aire du triangle à la deuxième étape est\", tar_read(\"aire2\"))\n\n\n\n\nL’aire du triangle à la deuxième étape est 0.140625\n\n\nTroisième Itération\n\n#tar_read(\"plot3\")\n#paste(\"L'aire du triangle à la troisième étape est\", tar_read(\"aire3\"))\n\n\n\n\nL’aire du triangle à la deuxième étape est 0.10546875\n\n\nQuatrième Itération\n\n#tar_read(\"plot4\")\n#paste(\"L'aire du triangle à la quatrième étape est\", tar_read(\"aire4\"))\n\n\n\n\nL’aire du triangle à la deuxième étape est 0.0791015625\n\n\n\nConclusion\nNous constatons bien qu’au cours du procéssus itératif, les aires des triangles diminuent au cours des étapes.La raison est qu’à chaque itération, chaque triangle est réduit de moitié ce qui signifie que l’aire totale des triangles diminue. L’aire de chaque triangle est divisée par quatre, par conséquent, l’aire des triangles dans le triangle de Siperpinski tend vers 0 à mesure que le nombre d’itérations augmente."
   },
   {
-    "objectID": "about.html#parcours",
-    "href": "about.html#parcours",
-    "title": "Description",
-    "section": "Parcours",
-    "text": "Parcours\nBaccalauréat ES : Mention Bien - Lycée Léonard de Vinci, Montaigu\nLicence 3 Analyse économique : Mention Bien - IAE Nantes"
-  },
-  {
-    "objectID": "about.html#ambition-dans-le-cadre-du-master",
-    "href": "about.html#ambition-dans-le-cadre-du-master",
-    "title": "Description",
-    "section": "Ambition dans le cadre du Master",
-    "text": "Ambition dans le cadre du Master\nJe souhaite devenir enseignant chercheur dans le domaine de l’économie."
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Réponses !",
+    "section": "",
+    "text": "Voici les réponses aux questions !"
   },
   {
     "objectID": "posts/welcome/index.html#création-du-projet-de-site-sous-github",

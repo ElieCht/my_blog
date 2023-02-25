@@ -1,0 +1,4 @@
+- source: project
+  netlify:
+    - id: 28abd990-21a2-4f43-b7d4-cf1c841bced4
+      url: 'https://chic-stardust-7e35c4.netlify.app'
